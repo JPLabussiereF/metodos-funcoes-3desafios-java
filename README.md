@@ -217,7 +217,7 @@ Crie uma classe `Produto` com métodos para:
 - Calcular preço com imposto
 - Comparar preços entre produtos
 
-### [Exercício 3: Avançado - Em Construção](src/main/java/CPFValidator.java) 
+### [Exercício 3: Avançado](src/main/java/CPFValidator.java) 
 Crie uma classe `ValidadorCPF` com métodos estáticos para:
 - Validar formato
 - Calcular dígitos verificadores

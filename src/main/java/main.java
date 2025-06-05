@@ -28,6 +28,7 @@ public static void main(String[] args) {
 
     cpf1.isLengthValid();
     cpf1.calculateCheckDigits();
+    cpf1.formatted();
 
 
 }
