@@ -9,10 +9,10 @@ public class CPFValidator {
 
     public void isLengthValid() {
         if (cpf.length() != 11) {
-            System.out.println("Digite um CPF de 11 digitos");
+            System.out.println("Digite um CPF de 11 digitos\n");
             return;
         }
-        System.out.printf("O seu cpf '%s' possui 11 digitos", cpf);
+        System.out.printf("O seu cpf '%s' possui 11 digitos\n", cpf);
     }
 
     public void calculateCheckDigits() {
@@ -48,9 +48,9 @@ public class CPFValidator {
         }
 
         if (valueFirstDigit == Character.getNumericValue(cpf.charAt(9)) && valueSecondDigit == Character.getNumericValue(cpf.charAt(10))) {
-            System.out.println("Seu CPF é válido!");
+            System.out.println("Seu CPF é válido!\n");
         } else {
-            System.out.println("Seu CPF é inválido!");
+            System.out.println("Seu CPF é inválido!\n");
         }
 
     }

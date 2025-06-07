@@ -25,6 +25,8 @@ public static void main(String[] args) {
 //    p2.calculateTax(100);
 
     CPFValidator cpf1 =new CPFValidator("julio", "86588340508");
+
+    cpf1.isLengthValid();
     cpf1.calculateCheckDigits();
 
 
